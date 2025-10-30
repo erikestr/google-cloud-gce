@@ -115,6 +115,8 @@ EOF
 
 # Start Apache
 systemctl start apache2
+
+# Enable Apache to start on boot
 systemctl enable apache2
 
 # Log completion
